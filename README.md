@@ -2,8 +2,7 @@
 
 # Raiz de tudo o documento.
 
-- Um cabeçalho (<head.></head.>)🧑
-- Um Corpo (<body.></body.>)👨‍💼
+
 
 # HTML - Estrutura Básica
 
