@@ -5,11 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tec02.</title>
     <style>
+        body{
+            width: 1550px;
+            margin: 30px;
 .flex-container	{
 				display:	flex;
 				flex-wrap:	wrap;
 				justify-content:	space-evenly;
                 background-repeat: no-repeat;
+}
+.foto	{
+				width: 100px;
+				height: 200px;
+				border-radius: 5px;
+				box-shadow: 3px 3px 3px #000000aa;
+				background-color: #ff002b;
+				margin-bottom: 1rem;
+}
+.flex-container	{
+				display:	flex;
+				flex-wrap:	wrap;
+				justify-content:	space-evenly;
+                background-image: ;
+}
+.foto-container	{
+				width: 66%;
 }
 .foto	{
 				width: 200px;
@@ -19,13 +39,26 @@
 				background-color: #ff002b;
 				margin-bottom: 1rem;
 }
+.foto-destaque-verde	{
+				background-color: #24cc2d;
+				height: 200px;
+}
+.foto img{
+    text-align: center;
+    box-shadow: 
+    -1px 13px 14px #000;
+    border: 3px solid #00ffff;
+}
+div{
+    background-image: u;
+}
     </style>
 </head>
 <h1>DISPLAY:	GRID.</h1>
 <body>
     <script src="app.js"></script>
     <main	class="flex-container">
-        <div	class="foto">1</div>
+        <div	class="foto">1 <img src="icon01/Alecive-Flatwoken-Apps-File-Javascript.512.png" width="100" alt=""></div>
         <div	class="foto">2</div>
         <div	class="foto">3</div>
         <div	class="foto">4</div>
@@ -33,6 +66,19 @@
         <div	class="foto">6</div>
         <div	class="foto">7</div>
         <div	class="foto">8</div>
+</main>
+<main>
+    <div	class="flex-container"> <!--	Primeira	linha	que	contém	"apenas"	o	bloco	verde	e	o	container	
+que	guarda	os	elementos	vermelhos-->
+                    <div	class="foto	foto-destaque-verde"></div> <!--	Bloco	verde	e	primeiro	elemento	da	linha	-->
+                    <div	class="flex-container	foto-container"> <!--	Container	que	vai	guardar	o	restante	dos	ele
+entos	vermelhos	e	segundo	elemento	da	linha	-->
+                                    <div	class="foto"></div>
+                                    <div	class="foto"></div>
+                                    <div	class="foto"></div>
+                                    <div	class="foto"></div>
+                    </div>
+    </div>
 </main>
 </body>
 </html>

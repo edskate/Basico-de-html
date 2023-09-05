@@ -6,9 +6,29 @@
     <title>Goal text.👷‍♂️</title>
     <style>
         body{
-            width: 600px;
-            margin: 50px;
-        }
+            width: 900px;
+          
+       } 
+       .flex-container	{
+				display:	flex;
+				flex-wrap:	wrap;
+				justify-content:	space-evenly;
+}
+.foto-container	{
+				width: 66%;
+}
+.foto	{
+				width: 200px;
+				height: 200px;
+				border-radius: 5px;
+				box-shadow: 3px 3px 3px #000000aa;
+				background-color: #ff002b;
+				margin-bottom: 1rem;
+}
+.foto-destaque-verde	{
+				background-color: #24cc2d;
+				height: 400px;
+}
     </style>
   </head>
   <body>
@@ -35,6 +55,19 @@
         document.write("<p>Este é um parágrafo.</p>");
         document.write("<p>Este é um parágrafo.</p>");
         </script>
+        <main>
+          <div	class="flex-container"> <!--	Primeira	linha	que	contém	"apenas"	o	bloco	verde	e	o	container	
+  que	guarda	os	elementos	vermelhos-->
+                  <div	class="foto	foto-destaque-verde"></div> <!--	Bloco	verde	e	primeiro	elemento	da	linha	-->
+                  <div	class="flex-container	foto-container"> <!--	Container	que	vai	guardar	o	restante	dos	ele
+  entos	vermelhos	e	segundo	elemento	da	linha	-->
+                          <div	class="foto"></div>
+                          <div	class="foto"></div>
+                          <div	class="foto"></div>
+                          <div	class="foto"></div>
+                  </div>
+          </div>
+  </main>
         <a href="Tec02.html">Nex -> DISPLAY:	GRID</a>
   </body>
 </html>
